@@ -1,3 +1,6 @@
+$color: #1EACC7
+$second_color: #FF5656
+	
 * 
 	font-family: 'Roboto', sans-serif 
 header 
@@ -45,7 +48,7 @@ nav
 		margin-top: 19px 
 		width: 172px 
 		height: 46px 
-		background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%) 
+		background: linear-gradient(0deg, $color 0%, #4CE2FF 100%) 
 		box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.12) 
 		border-radius: 4px 
 		border: none 
@@ -90,7 +93,7 @@ nav
 		margin: 118px auto 0 auto 
 		width: 259px 
 		height: 63px 
-		background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%) 
+		background: linear-gradient(0deg, $color 0%, #4CE2FF 100%) 
 		box-shadow: inset 0px -4px 0px rgba(0, 0, 0, 0.12) 
 		border-radius: 4px 
 		border: none 
@@ -121,7 +124,7 @@ nav
 	text-align: center 
 	margin-top: 32px 
 .subtitle
-	margin-top: 19px
+	// margin-top: 19px
 	font-weight: 400
 	font-size: 17px
 	text-align: center
@@ -133,7 +136,7 @@ nav
 	margin-top: 35px 
 .card_icon 
 	border-radius: 100% 
-	background-color: #1EACC7 
+	background-color: $color
 	width: 116px 
 	height: 116px 
 	display: flex 
@@ -147,7 +150,7 @@ nav
 	font-size: 17px 
 	display: flex 
 	align-items: center 
-	color: #1EACC7 
+	color: $color
 .card_text 
 	font-weight: 300 
 	font-size: 15px 
@@ -198,3 +201,41 @@ nav
 			left: 50%
 			transform: translateX(-50%)
 			cursor: pointer
+.choice 
+	position: relative
+	min-height: 895px
+	padding: 57px 0 138px 0
+	background: url('../Img/mobile_bg.png') center (center / cover) no-repeat
+	// z-index: 3
+	&_img 
+		position: relative
+		display: block
+		margin: 56px auto 0 auto
+		z-index: 2
+	&_descr 
+		text-align: center
+		color: #222222
+		font-size: 17px
+		font-weight: 300
+		line-height: 24px
+	.black 
+		position: absolute 
+		top: 0
+		left: 0
+		height: 499px
+		width: 100%
+		background-color: #070716
+		z-index: 1
+	.label
+		color: #070716
+		background-color: #FFFFFF
+		z-index: 2
+		position: relative
+	.title
+		color: #FFFFFF
+		z-index: 2
+		position: relative
+	.subtitle
+		color: #FFFFFF
+		z-index: 2
+		position: relative
