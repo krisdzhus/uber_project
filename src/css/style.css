@@ -1,69 +1,62 @@
 * {
-    font-family: 'Roboto', sans-serif;
-}
-
-header {
+    font-family: "Roboto", sans-serif;
+  }
+  
+  header {
     position: relative;
-}
-
-nav {
+  }
+  
+  nav {
     height: 53px;
     background: #212121;
-}
-
-.menu {
+  }
+  
+  .menu {
     display: flex;
     justify-content: space-between;
     padding: 13px 70px;
     margin: 0;
     list-style: none;
-}
-
-.menu .menu_link {
+  }
+  .menu .menu_link {
     font-weight: 300;
     font-size: 15px;
     color: #FFFFFF;
-}
-
-.menu .menu_item {
+  }
+  .menu .menu_item {
     border-right: 2px dotted black;
     padding-right: 40px;
-}
-
-.subheader {
+  }
+  
+  .subheader {
     position: absolute;
     width: 100%;
     height: 87px;
-    background: rgba(0, 0, 0, .6);
-}
-
-.subheader .subheader_logo {
+    background: rgba(0, 0, 0, 0.6);
+  }
+  .subheader .subheader_logo {
     display: block;
     max-width: 100%;
     margin-top: 16px;
-}
-
-.subheader .subheader_official {
+  }
+  .subheader .subheader_official {
     font-weight: 100;
     font-size: 13px;
     color: #FFFFFF;
-}
-
-.subheader .subheader_call {
+  }
+  .subheader .subheader_call {
     font-weight: 300;
     font-size: 12px;
     color: #FFFFFF;
     margin-top: 20px;
-}
-
-.subheader .subheader_phone {
+  }
+  .subheader .subheader_phone {
     text-transform: uppercase;
     font-weight: 400;
     font-size: 19px;
     color: #FFFFFF;
-}
-
-.subheader .subheader_btn {
+  }
+  .subheader .subheader_btn {
     margin-top: 19px;
     width: 172px;
     height: 46px;
@@ -79,15 +72,14 @@ nav {
     text-transform: uppercase;
     color: #FFFFFF;
     text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
-}
-
-.promo {
+  }
+  
+  .promo {
     padding: 150px 0 135px 0;
     min-height: 800px;
     background: url(../Img/uber_bg.jpeg) center center/cover no-repeat;
-}
-
-.promo .promo_header {
+  }
+  .promo .promo_header {
     margin: 0;
     font-weight: 900;
     font-size: 60px;
@@ -95,9 +87,8 @@ nav {
     text-align: center;
     text-transform: uppercase;
     color: #FFFFFF;
-}
-
-.promo .promo_subheader {
+  }
+  .promo .promo_subheader {
     margin: 0;
     margin-top: 22px;
     font-weight: 900;
@@ -106,18 +97,16 @@ nav {
     text-align: center;
     text-transform: uppercase;
     color: #FFFFFF;
-}
-
-.promo .promo_descr {
+  }
+  .promo .promo_descr {
     margin-top: 16px;
     font-weight: 400;
     font-size: 18px;
     align-items: center;
     text-align: center;
     color: #FFFFFF;
-}
-
-.promo .promo_btn {
+  }
+  .promo .promo_btn {
     display: block;
     margin: 118px auto 0 auto;
     width: 259px;
@@ -133,9 +122,9 @@ nav {
     text-transform: uppercase;
     color: #FFFFFF;
     text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
-}
-
-.advantages_header {
+  }
+  
+  .label {
     margin: 0 auto;
     margin-top: 20px;
     width: 113px;
@@ -146,9 +135,9 @@ nav {
     text-transform: uppercase;
     color: #FFFFFF;
     background-color: #000000;
-}
-
-.advantages_subheader {
+  }
+  
+  .title {
     font-weight: 700;
     font-size: 38px;
     text-transform: uppercase;
@@ -156,16 +145,16 @@ nav {
     margin: 0 auto;
     text-align: center;
     margin-top: 32px;
-}
-
-.advantages_card {
+  }
+  
+  .advantages_card {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 35px
-}
-
-.card_icon {
+    margin-top: 35px;
+  }
+  
+  .card_icon {
     border-radius: 100%;
     background-color: #1EACC7;
     width: 116px;
@@ -174,22 +163,22 @@ nav {
     justify-content: center;
     align-items: center;
     margin-right: 26px;
-}
-
-.card_descr {
+  }
+  
+  .card_descr {
     width: 371px;
-}
-
-.card_subtitle {
+  }
+  
+  .card_subtitle {
     font-weight: 400;
     font-size: 17px;
     display: flex;
     align-items: center;
     color: #1EACC7;
-}
-
-.card_text {
+  }
+  
+  .card_text {
     font-weight: 300;
     font-size: 15px;
     color: #202020;
-}
+  }/*# sourceMappingURL=style.css.map */
